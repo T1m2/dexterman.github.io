@@ -14,13 +14,11 @@ tags:
 
 ### Pod / PVC / PV 关系图
 
-```mermaid
 <div class="mermaid">
 graph LR
 Pod -- n:1 --- PVC(PVC)
 PVC -- 1:1 --- PV((PV))
 </div>
-```
 
 ### 创建PVC / PV
 
