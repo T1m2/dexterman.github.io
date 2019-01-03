@@ -226,3 +226,22 @@ layout: default
     }
 </style>
 {% endif %}
+
+{%- if site.mermaid_enable -%}
+<script src="//cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    // Initial mermaid
+    mermaid.init({startOnLoad:true}, "pre code.language-mermaid", function(){
+      // Change <pre> and <code> block style
+      var codeBlock = document.querySelector('code.language-mermaid');
+      var preBlock = codeBlock.parentNode;
+
+      codeBlock.style.backgroundColor = 'initial';
+      preBlock.style.border = 'none';
+      preBlock.style.textAlign = 'center';
+      preBlock.style.backgroundColor = 'initial';
+    });
+  })()
+</script>
+{%- endif -%}

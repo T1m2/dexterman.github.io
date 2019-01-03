@@ -53,6 +53,7 @@ highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
+mermaid_enable: true
 
 
 # 评论系统
