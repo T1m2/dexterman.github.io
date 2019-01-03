@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-avataaars.png      # use absolute URL, seeing it's us
 RSS: false
 # weibo_username:     
 # zhihu_username:     
-# github_username:    
+github_username: dexterman    
 # facebook_username:  
 # jianshu_username:   
 # twitter_username:   
@@ -57,7 +57,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: dexter_man
+# disqus_username: dexter_man
 
 # Gitalk
 gitalk:
