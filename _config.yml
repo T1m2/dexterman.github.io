@@ -1,7 +1,7 @@
 # Site settings
-title: 破风
-SEOTitle: dexterman | blog
-header-img: img/post-bg-desk.jpg
+title: Tim Blog
+SEOTitle: dexterman | Tim Blog
+header-img: img/home-bg.jpg
 email: 
 description: "Every failure is leading towards success."
 keyword: "dexterman, my.oschina.net/dexterman/blog, Golang, Kubernetes"
