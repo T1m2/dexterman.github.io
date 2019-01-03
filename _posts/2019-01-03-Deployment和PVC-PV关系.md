@@ -36,7 +36,7 @@ spec:
     name: ceph-rbd-claim   # ** 绑定PVC ** 
   rbd:					   # ** 定义RBD参数 **
     monitors:
-      - 10.125.224.26:6789
+      - 10.100.224.26:6789
     pool: k8s
     image: ceph-image
     user: admin
